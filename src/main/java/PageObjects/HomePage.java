@@ -64,8 +64,14 @@ public class HomePage {
 
         SeleniumWaits.isVisible(searchCity);
         SeleniumWaits.ExpWaitIsClickable(searchCity);
-        searchCity.click();
+        searchCityClick();
         searchCity.sendKeys(s);
+    }
+
+    public void searchCityClick() {
+
+        JavascriptExecutor executor = (JavascriptExecutor)driver;
+        executor.executeScript("arguments[0].click();", searchCity);
     }
 
     public void searchButton() {
