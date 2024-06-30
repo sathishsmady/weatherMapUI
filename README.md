@@ -15,9 +15,8 @@ This project contains open weather map UI test scripts.
 
 ### How do I get set up? ###
 Summary of set up:
-1. clone repository: ``
-2. go to dir: ``
-3. execute: `mvn clean install -DskipTests=true`
+1. clone repository: `git clone git@github.com:sathishsmady/weatherMapUI.git`
+2. execute: `mvn clean install -DskipTests=true`
 
 ### Contribution guidelines ###
 
