@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Weather UI Regression" verbose="1" parallel="methods" thread-count="2" data-provider-thread-count="2">
+
+
+    <parameter
+            name="browser" value="chrome">
+    </parameter>
+
+
+    <test name="Search City Validations">
+        <classes>
+            <class name="WeatherUITests"/>
+        </classes>
+    </test>
+
+</suite>
